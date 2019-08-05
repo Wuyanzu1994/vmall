@@ -1,0 +1,75 @@
+*{margin:0;padding:0;}
+.shortcut a{
+    font-size:8px;
+    color:#6c757d;
+    padding:0;margin:0;
+}
+a:hover{
+    text-decoration:none;
+    color:red;
+}
+.breadcrumb-item +.breadcrumb-item::before {
+    content: "|";
+}
+.shortcut{
+    width:100%;height:36px;
+}
+.s-sub{
+    float:left;
+    height:36px;
+    line-height:15px;
+    padding-bottom:13px;
+}
+.s-main{
+    float:right;
+    height:36px;
+    line-height:15px;
+}
+
+.breadcrumb{
+    border-radius: 0;
+}
+.header {
+    width:1100px;height:74px;
+    padding:18px 0 15px 0; 
+    position: relative;
+    line-height: 1.5;
+}
+.logo{
+    float:left;
+    line-height:74px;
+}
+.logo .vmall{
+    height:36px;
+}
+.naver img{
+    height:24px;
+}
+.naver ul{
+    line-height:74px;
+}
+.naver ul li:nth-child(1){
+    margin-left:30px;
+}
+.naver ul li{
+    margin-right:20px;
+}
+.naver a{
+    color:#000;
+}
+.right{
+    position: absolute;
+    top:59px;right:172px;
+}
+.right input{
+    border-radius:50px;
+    background:#f0f0f0;
+    width:285px;
+    border:0px;
+}
+.right a img{
+    position:absolute;
+    top:0px;right:0px;
+    height:24px;
+    border-radius: 50px;
+}
